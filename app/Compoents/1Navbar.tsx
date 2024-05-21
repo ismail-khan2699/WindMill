@@ -31,8 +31,9 @@ const Navbar = () => {
             CONTACT
           </Link>
         </div>
-        
+        <div className=' z-50'>
         <NavBarList/>
+        </div>
         
     </div>
     </div>
@@ -40,10 +41,10 @@ const Navbar = () => {
     <p className=' text-white text-2xl md:text-4xl lg:text-5xl font-bold'>B2B Industrial Marketing Agency: Web Design & Digital Marketing for Industry</p>
     <p className=' text-sm md:text-xl text-white/70 font-light my-4'>We're a B2B industrial web design & digital marketing agency helping technical, industrial, life science and manufacturing companies achieve increased visibility & engagement, stronger positioning & branding, higher quality leads, and greater marketing ROI to accelerate growth.</p>
     <div className=' flex mt-4 mb-10 gap-x-5'>
-    <Link href={'#'} className=' inline-flex text-white text-xs font-bold  justify-center items-center py-4 rounded-sm transition-all duration-400 px-8 bg-btncolor hover:bg-onHover hover:scale-105'>
+    <Link href={'#'} className=' py-4 inline-flex text-white text-xs font-bold  justify-center items-center  rounded-sm transition-all duration-400 px-8 bg-btncolor hover:bg-onHover hover:scale-105'>
             HOW WE CAN HELP
           </Link>
-    <Link href={'#'} className=' text-white font-bold text-xs flex justify-center border-2 hover:border-onHover border-white items-center py-1 rounded-sm transition-all duration-400 px-8 bg-transparent hover:bg-onHover hover:scale-105'>
+    <Link href={'#'} className=' py-1 text-white font-bold text-xs flex justify-center border-2 hover:border-onHover border-white items-center rounded-sm transition-all duration-400 px-8 bg-transparent hover:bg-onHover hover:scale-105'>
             CASE STUDIES 
           </Link>
     </div>

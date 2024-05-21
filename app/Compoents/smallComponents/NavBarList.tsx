@@ -29,7 +29,7 @@ const NavBarList = () => {
   
   return (
     <>
-    <div className="self-end flex max-lg:hidden mt-5 overflow-visible">
+    <div className="self-end flex max-lg:hidden mt-5 z-20 overflow-visible">
         <Popover>
           <PopoverButton className="text-sm/6  px-2 font-semibold relative group text-white focus:outline-none data-[active]:text-white data-[hover]:text-white data-[focus]:outline-1 data-[focus]:outline-white">
           <span className="text-md inline-flex  gap-x-1 justify-center items-center font-semibold ">
@@ -47,9 +47,9 @@ const NavBarList = () => {
           >
             <PopoverPanel
               anchor="bottom"
-              className=" h-[80vh] w-full mt-5 bg-white "
+              className=" h-[80vh] w-full mt-5 z-50 bg-white "
             >
-             <div className=' h-full w-full flex justify-between '>
+             <div className=' h-full w-full flex z-50 justify-between '>
               <div className="w-1/4 px-5 py-10 text-white h-full bg-bgcolor">
                 <h1 className=' font-bold text-2xl'>Modern B2B Marketing</h1>
                 <p className=' my-5 text-base font-light w-11/12 justify-start'>We help B2B marketers achieve greater impact. Together, we’ll align your marketing with how today’s buyers are finding solutions, communicate the quality of your offerings, and empower marketing to work cohesively with sales to drive business.</p>
@@ -136,7 +136,7 @@ const NavBarList = () => {
           >
             <PopoverPanel
               anchor="bottom"
-              className=" h-auto w-full mt-5 bg-white "
+              className=" h-auto w-full mt-5 z-50 bg-white "
             >
              <div className=' h-full w-full flex justify-between '>
               <div className="w-1/4 px-5 py-10 text-white h-full bg-bgcolor">
@@ -208,7 +208,7 @@ const NavBarList = () => {
           >
             <PopoverPanel
               anchor="bottom"
-              className=" h-fit w-auto mt-5 absolute left-0 bg-bgcolor p-5"
+              className=" h-fit w-auto mt-5 absolute z-50 left-0 bg-bgcolor p-5"
             >
              <div className=' h-fit w-auto text-white  flex flex-col justify-between '>
               {Aboutlinks.map((item, index)=>(
@@ -253,7 +253,7 @@ const NavBarList = () => {
           >
             <PopoverPanel
               anchor="bottom"
-              className=" h-fit w-auto mt-5 absolute left-0 bg-bgcolor p-5"
+              className=" h-fit w-auto mt-5 absolute z-50 left-0 bg-bgcolor p-5"
             >
              <div className=' h-fit w-auto text-white  flex flex-col justify-between '>
               {Resources.map((item, index)=>(
